@@ -50,6 +50,7 @@
 		4C4DE23418B3FCE5008F8DE5 /* SharingPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharingPickerTests-Info.plist"; sourceTree = "<group>"; };
 		4C4DE23618B3FCE5008F8DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C4DE23818B3FCE5008F8DE5 /* SharingPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingPickerTests.m; sourceTree = "<group>"; };
+		4C4DE24218B3FEB3008F8DE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = SharingPicker/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		4C4DE20218B3FCE5008F8DE5 = {
 			isa = PBXGroup;
 			children = (
+				4C4DE24218B3FEB3008F8DE5 /* README.md */,
 				4C4DE21418B3FCE5008F8DE5 /* SharingPicker */,
 				4C4DE23218B3FCE5008F8DE5 /* SharingPickerTests */,
 				4C4DE20D18B3FCE5008F8DE5 /* Frameworks */,
