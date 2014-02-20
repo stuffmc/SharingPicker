@@ -54,7 +54,7 @@
 
 - (NSString*)activityType
 {
-    NSRange range = [self.description rangeOfString:@"\\[com.apple.share.System.*\\]" options:NSRegularExpressionSearch];
+    NSRange range = [self.description rangeOfString:@"\\[com.apple.share.*\\]" options:NSRegularExpressionSearch];
     range.location++; // Start after [
     range.length -= 2; // Remove both [ and ]
     return [self.description substringWithRange:range];

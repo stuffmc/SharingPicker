@@ -28,6 +28,6 @@ Allows you to do
 	
     [@[NSSharingServiceNameAddToSafariReadingList, NSSharingServiceNameAddToIPhoto] containsObject:[sharingService activityType]];
 
-
+Also check this out: http://stackoverflow.com/questions/21797141/nssharingservice-how-to-compare-with-the-constants/21904921
 
 __PS__: And how to avoid that `should not be called on mouseUp` warning?
