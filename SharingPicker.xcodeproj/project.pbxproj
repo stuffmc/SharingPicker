@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0AA7F118B61130004A5B2B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4C4DE20B18B3FCE5008F8DE5 /* SharingPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4DE20E18B3FCE5008F8DE5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4C4DE21118B3FCE5008F8DE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,7 +51,6 @@
 		4C4DE23418B3FCE5008F8DE5 /* SharingPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharingPickerTests-Info.plist"; sourceTree = "<group>"; };
 		4C4DE23618B3FCE5008F8DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C4DE23818B3FCE5008F8DE5 /* SharingPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingPickerTests.m; sourceTree = "<group>"; };
-		4C4DE24218B3FEB3008F8DE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = SharingPicker/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 		4C4DE20218B3FCE5008F8DE5 = {
 			isa = PBXGroup;
 			children = (
-				4C4DE24218B3FEB3008F8DE5 /* README.md */,
+				4C0AA7F118B61130004A5B2B /* README.md */,
 				4C4DE21418B3FCE5008F8DE5 /* SharingPicker */,
 				4C4DE23218B3FCE5008F8DE5 /* SharingPickerTests */,
 				4C4DE20D18B3FCE5008F8DE5 /* Frameworks */,
@@ -468,6 +468,7 @@
 				4C4DE23E18B3FCE5008F8DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C4DE23F18B3FCE5008F8DE5 /* Build configuration list for PBXNativeTarget "SharingPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +477,7 @@
 				4C4DE24118B3FCE5008F8DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
