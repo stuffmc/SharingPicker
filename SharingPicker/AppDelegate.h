@@ -13,3 +13,9 @@
 @property (assign) IBOutlet NSWindow *window;
 
 @end
+
+@interface NSSharingService (ActivityType)
+
+@property (readonly, nonatomic, retain) NSString *activityType;
+
+@end

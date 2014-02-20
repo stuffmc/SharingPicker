@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1458B7C0-D237-441A-8B1B-CA47F4E9967A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SharingPicker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9BFFA673-163C-48C1-BAD5-71819E96997E</key>
+		<string>https://github.com/stuffmc/SharingPicker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SharingPicker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9BFFA673-163C-48C1-BAD5-71819E96997E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stuffmc/SharingPicker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9BFFA673-163C-48C1-BAD5-71819E96997E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9BFFA673-163C-48C1-BAD5-71819E96997E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SharingPicker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

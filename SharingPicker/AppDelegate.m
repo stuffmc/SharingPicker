@@ -40,9 +40,24 @@
 - (void)sharingService:(NSSharingService *)sharingService didShareItems:(NSArray *)items
 {
     BOOL isReadingList = [sharingService.description rangeOfString:NSSharingServiceNameAddToSafariReadingList].location != NSNotFound;
-    NSLog(@"isReadingList: %d", isReadingList);
+    NSLog(@"isReadingList range: %d", isReadingList);
+    NSLog(@"act: %@", [sharingService activityType]);
+    isReadingList = [[sharingService activityType] isEqualToString:NSSharingServiceNameAddToSafariReadingList];
+    NSLog(@"isReadingList iequa: %d", isReadingList);
+    isReadingList = [@[NSSharingServiceNameAddToSafariReadingList, NSSharingServiceNameAddToIPhoto] containsObject:[sharingService activityType]];
+    NSLog(@"isReadingList conta: %d", isReadingList);
 }
 
+@end
 
+@implementation NSSharingService (ActivityType)
+
+- (NSString*)activityType
+{
+    NSRange range = [self.description rangeOfString:@"\\[com.apple.share.System.*\\]" options:NSRegularExpressionSearch];
+    range.location++; // Start after [
+    range.length -= 2; // Remove both [ and ]
+    return [self.description substringWithRange:range];
+}
 
 @end
